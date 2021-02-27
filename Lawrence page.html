@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Lawrence Page </title>
+
+<link href="LP.css" rel="stylesheet">
+<script src="LP.js"></script>
+</head>
+
+<body onload="HideSource();HideBG()" id="page" class="sombre">
+
+
+
+
+
+<div  id="main_menu">
+<a title="retourner à la page d'acceuil" href= ><img src="https://i.pinimg.com/originals/b6/36/a8/b636a8185502da53da279ab02abdbece.png" width="90" height="90" alt="sommaire des personnages" ></a>
+<h1>Lawrence "Larry" Edward Page</h1>
+<button type="button" id="settings_button" title="ouvrir les paramètres" onclick="hide('settings_menu'); " ><img src="https://image.flaticon.com/icons/png/512/59/59108.png" alt="paramètres" width="50" height="50"></button>
+</div>
+
+
+
+
+<div  id=settings_menu>
+<button type=button title="mode clair" id=light_mode onclick="hide('settings_menu');light()" ><img src="https://cdn.pixabay.com/photo/2013/07/13/12/16/sun-159508_960_720.png" alt="mode clair"  width="90" height="90"></button>
+<button type=button title="mode sombre" id=dark_mode onclick="hide('settings_menu');dark()" ><img src="https://static.thenounproject.com/png/595-200.png" alt="mode sombre" width="90" height="90"></button>
+</div>
+
+
+
+
+<div  id="intro">
+<ul>
+<li>1973: Lawrence page est né à East Lansing
+<ul>
+<li>ses parents étaient professeurs d'informatique</li>
+</ul>
+</li>
+<li>1995: diplomé de l'université du Michigan</li>
+<li>1998: crée le moteur de recherche GOOGLE, ainsi que l'entreprise du même nom, avec <a href="https://fr.wikipedia.org/wiki/Sergey_Brin" target=_blank >Sergey Brin</a></li>
+<li>1998-2001: devient PDG de GOOGLE</li>
+<li>2004: il reçoit le <a target=_blank href="https://fr.wikipedia.org/wiki/Prix_Marconi" title="Le prix Marconi est un prix annuel récompensant des avances 
+dans le domaine de la transmission de l'information" >prix Marconi</a></li>
+<li>2011-2015: une seconde fois PDG de GOOGLE</li>
+<li>2015-2019: devient le PDG d'<a target=_blank href="https://fr.wikipedia.org/wiki/Alphabet_(entreprise)" title="société parente de GOOGLE">Alphabet Inc.</a></li>
+<p>Il est l'inventeur du <a href=#PageRank >PageRank</a></p>
+</ul>
+<img src="https://ecorner.stanford.edu/wp-content/uploads/sites/2/2017/10/Page_Larry_eCorner_Contributor_Cropped.jpg" alt="Larry Page" title="Larry page en 2013">
+</div>
+
+
+
+
+
+
+<div class="flexInfo" id="google">
+<h2>GOOGLE</h2>
+<div>
+<p>C'est un moteur de recherche mis en service le 27 septembre  1998, qui permet d'accéder gratuitement au World Wide Web.<br> 
+Il se démarqua des moteurs de recherches, alors présents, par son efficacité: il proposait de bien meilleurs résultats de recherches 
+à ses utilisateur car il faisait plus que simplement rechercher des mots clés, et cela grâce à une inovation de ses créateurs, le <a href=#PageRank >PageRank</a>. <br>
+Il devient ainsi le moteur de recherche le plus utilisé au monde par plus de 90% des internautes et tire son profit des "AdWords": afiche des publicité (sous forme de sites internet) correspondants aux mots clés recherché par l'utilisateur, plus un mot clé est recherché plus il a de valeur. <br>
+Actuellement google aurait indéxé plusieurs dizaines de millier de milliards d'URL.</p>
+<img title="page d'accueil de google" src="Google(moteur).png" width="40%">
+</div>
+</div>
+
+
+
+
+<div class="flexInfo" id="PageRank">
+<h2>PageRank</h2>
+<div>
+<img title="schéma du principe du PageRank" alt="PageRank" src="https://1045smartkeyword2020-1278.kxcdn.com/wp-content/uploads/2019/06/Capture-d%E2%80%99e%CC%81cran-2019-06-20-a%CC%80-11.27.07.png"  width="40%"  >
+<p>Le PageRank est un algorithme qui permet de mesurer la popularité de chaque pages Web. <br>
+Pour cela il s'appuie  sur la quantité de lien qui relie différentes page web à celle-ci, <br>
+et genéralement le PageRank d'une page tend à étre plus élevé que les PageRank des pages qui renvoie à celle-ci (schéma ci-contre).<br>
+Toutefois, ce facteur n'est pas le seul prit en compte pour classer les pages web, même s'il possède une grande importance. <br>
+On peut exploiter cette caractéristique pour faire ce qu'on appelle un " <a href=#BG>bombardement google</a>" .<br><br>
+Un des désaventages de ce classement est que si un site est cité quelque soit la raison, qu'il donne des informations vraies ou fausses, cela lui accordera quand même une certaine valorisation
+</p>
+</div>
+</div>
+
+
+
+
+
+<div class="flexInfo" id="BG">
+<h2 title="click ici si tu veux en connaître plus sur le Google Bombing" id="BGH">Bombardement Google (FunFact)</h2>
+<div id="BGB">
+<p>Un bombardement Google est une technique qui influence le classement des pages Web en associant un site web a une expression ou un mot, sur plein d'autres sites web.<br>
+Cette méthode exploite le PageRank et permet, si elle réussie, de tomber sur un site en entrant l'expréssion ou le mot clé, qui y a été associé, dans la barre de recherche.<br>
+Les bondardemnt Google sont généralement lancés sur des forums qui invitent un maximum de personnes à participer, mais ils peuvent être relayés,involontairement, par les média qui parle du phénomène et qui accentuent ducoup eux-même le Bombardement, comme ce fut le cas avec Donald Trump. </p>
+<img title="Donald Trump associé au mot 'idiot'" alt="recherche google du mot idiot" src="idiot.png"  width="40%"   >
+
+</div>
+</div>
+
+
+
+
+
+
+
+<button id="Bquizz" type=button onclick="hide('quizz')" title="click ici pour lancer le Quizz">Petit Quizz</button>
+
+<div id="quizz" class="EnsQuizz">
+<h2>questionnaire sur Larry Page</h2>
+<p>voici un petit questionnaire pour voir si tu a bien lu les information qui t'étaient données sur Larry Page. (les majuscules des noms doivent être restpectées)<br>BONNE CHANCE !!!</p>
+<div>
+<p> Lawrence Page est diplomé de l'université du <input id="inp1" type="text">.</p>
+<p>Larry Page a été <input id="inp2" type="text"> fois PDG de Google.</p>
+<p>Il a fondé Google en <input id="inp3" type="text">. (en chiffres)</p>
+<p>Il est l'inventeur du <input id="inp4" type="text">.</p>
+<p>Plus de <input id="inp5" type="text">% des internautes utilisent le moteur de recherche GOOGLE. (en chiffres)</p>
+<p>celui-ci tire son profit des <input id="inp6" type="text">.</p>
+<p>Google aurait indéxé plusieurs <select id="inp7">
+<option>sélectionne une réponse</option>
+<option>dizaines de milliers de milliards</option>
+<option>dizaines de millions de milliards</option>
+</select> d'URL.
+</p>
+<p>Le PageRank est un algorithme qui permet de mesurer la <input id="inp8" type="text"> d'une page Web</p>
+<p>il s'appuie sur la <select id="inp9"><option>sélectionne une réponse</option><option>quantité de</option><option>qualité des</option></select> lien(s) qui relient différentes pages web à celle-ci</p>
+<p>ce facteur est-il le seul pris en compte ? <input id="inp10" type="text"></p>
+<p>quel mot-clé est associé a Donald Trump depuis un certain Bombardement Google ? <input id="inp11" type="text"></p>
+<button id="Vbutton" type=button onclick="hide('quizz');hide('resultat');quizz();" title="click ici pour valider tes réponses">confirmer</button>
+</div>
+</div>
+
+
+<div id="resultat" class="EnsQuizz">
+<table>
+<tr>
+<th colspan="2">Résultats</th>
+</tr> 
+<tr>
+<td>Généralités</td>
+<td id="Ger">~/4</td>
+</tr>
+<tr>
+<td>Google</td>
+<td id="Gor">~/3</td>
+</tr>	
+<tr>
+<td>PageRank</td>
+<td id="Pr">~/3</td>
+</tr>  
+<tr>
+<td>Bonus</td>
+<td id="Br">~/1</td>
+</tr>  
+<tr>
+<td>Total</td>
+<td id="Tr">~/20</td>
+</tr>
+</table>
+<img id="11/10n0" style="position:fixed;top:40%;left:10%;display:none" src="wow.gif">
+<img id="11/10n1" style="position:fixed;top:40%;right:10%;display:none" src="wow.gif">
+<button style="margin-top:2%;"type=button onclick="fin();hide('resultat')" >Fermer</button>
+</div>
+
+
+
+
+<h3 title="cliquez ici pour afficher les sources" id="source_title">sources</h3>
+<div id="source">
+<ol>
+<li><a target=_blank href="https://fr.wikipedia.org/wiki/Google_(moteur_de_recherche)" >https://fr.wikipedia.org/wiki/Google_(moteur_de_recherche)</a></li>
+<li><a target=_blank href="https://en.wikipedia.org/wiki/Larry_Page" >https://en.wikipedia.org/wiki/Larry_Page</a></li>
+<li><a target=_blank href="https://fr.wikipedia.org/wiki/Bombardement_Google" >https://fr.wikipedia.org/wiki/Bombardement_Google</a></li>
+<li><a target=_blank href="https://www.youtube.com/watch?v=b3iS809deAM" >https://www.youtube.com/watch?v=b3iS809deAM</a></li>
+<li><a target=_blank href="https://www.seo.fr/definition/pagerank" >https://www.seo.fr/definition/pagerank</a></li>
+<li><a target=_blank href="https://www.google.com/doodles/googles-18th-birthday" >https://www.google.com/doodles/googles-18th-birthday</a></li>
+<li><a target=_blank href="" ></a></li>
+<li><a target=_blank href="" ></a></li>
+</ol>
+</div>
+
+
+
+
+
+</body>
+</html>
